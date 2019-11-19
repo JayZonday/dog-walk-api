@@ -36,7 +36,7 @@ class Api::V1::PostsController < ApplicationController
   private
 
   def post_params
-    params.require(:post).permit(:service , :dogname, :info, :user_id)
+    params.require(:post).permit(:service , :dogname, :doginfo, :user_id)
   end
 
 end

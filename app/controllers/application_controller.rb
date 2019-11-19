@@ -9,7 +9,7 @@ class ApplicationController < ActionController::API
       name: user.name,
       hobby: user.hobby,
       profilepic: user.profilepic,
-      dopname: user.dogname,
+      dogname: user.dogname,
       posts: user.posts,
       token: generate_token(user)
     }
