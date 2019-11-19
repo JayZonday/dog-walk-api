@@ -9,6 +9,7 @@ user1 = User.create(
   username: 'Test',
   password:"test",
   motto: "I Test Non-Stop!",
+  email: 'test@test.com',
   name:"Test Tester",
   hobby:"Testing",
   profilepic:"https://www.robot-advance.com/EN/ori-maze-breaker-black-silverlit-1885.jpg",
